@@ -181,14 +181,14 @@ header {
     color: var(--main-color);
 }
 
-.bg-img {
+.bg-img#skz {
     position: absolute;
-    width: 400px;
+    width: 380px;
     z-index: -1;
     left: 50%;
-    margin-left: -230px;
-    top: -210%;
-    opacity: 0.2;
+    margin-left: -180px;
+    top: -205%;
+    opacity: 0.3;
 }
 
 .bg-img#ive {
@@ -197,17 +197,17 @@ header {
     z-index: -1;
     left: 50%;
     margin-left: -170px;
-    top: -170%;
-    opacity: 0.2;
+    top: -180%;
+    opacity: 0.3;
 }
 
 .bg-img#treasure {
     position: absolute;
-    width: 400px;
+    width: 500px;
     z-index: -1;
     left: 50%;
-    margin-left: -230px;
-    top: -210%;
+    margin-left: -250px;
+    top: -450%;
     opacity: 0.2;
 }
 
@@ -230,32 +230,42 @@ header {
     transition: all .38s ease;
 }
 
+.menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.menu-title h4 {
+    text-transform: uppercase;
+    font-size: 19px;
+    color: var(--second-color);
+}
+
 .menu-text {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 8px 0;
 }
 
-.menu-left h4 {
-    font-size: 23px;
-}
-
-.menu-right h5 {
+.menu-left h5 {
+    font-size: 18px;
     color: var(--main-color);
-    font-size: 23px;
 }
 
 .row p {
     color: var(--second-color);
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30px;
     margin-bottom: 15px;
 }
 
 .star i {
     color: orangered;
-    font-size: 17px;
+    font-size: 18px;
     margin-right: 4px;
 }
 
@@ -377,7 +387,8 @@ header {
     #menu-icon {
         display: initial;
     }
-    header .navbar {
+    header .navbar,
+    header .h-icons .search-cart{
         position: absolute;
         top: -500px;
         left: 0;
@@ -391,10 +402,12 @@ header {
         text-align: left;
         align-items: center;
     }
-    .navbar.active {
+    .navbar.active,
+    .h-icons.search-cart.active {
         top: 100%;
     }
-    .navbar a {
+    .navbar a,
+    .h-icons.search-cart a{
         padding: 1.5rem;
         display: block;
         color: var(--second-color);
