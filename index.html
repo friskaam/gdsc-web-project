@@ -22,20 +22,8 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="h-icons">
-            <div class="search-cart">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg>
-                </a>
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-cart2" viewBox="0 0 16 16">
-                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                      </svg>
-                </a>
-            </div>
-            <!-- <a href="#"><i class='bx bx-search'></i></a>
-            <a href="#"><i class='bx bx-cart' ></i></a> -->
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
@@ -49,11 +37,21 @@
             <a href="#" class="btn">Order here</a>
         </div>
         <!-- perlu resize home-img css & responsive-->
-        <div class="home-img">
+        <!-- <div class="home-img">
             <div class="img-container">
                 <img src="images/skz.png" alt="">
                 <img src="images/ive.png" alt="">
                 <img id="lastImage" src="images/treasure.png" alt="">
+            </div>
+        </div> -->
+        <div class="home-slider">
+            <div class="home-img">
+                <div class="img-container">
+                    <img src="images/skz.png" alt="">
+                    <img src="images/ive.png" alt="">
+                    <img src="images/treasure.png" alt="">
+                    <img src="images/skz.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -298,32 +296,49 @@
 
     <!-- about section -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/gdsc-logo.png" alt="">
-        </div>
-        <div class="about-text">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dicta minima reiciendis autem natus, laborum quam incidunt qui aliquam at nemo magnam id aliquid deleniti placeat illum nihil. Quia, vel!</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, omnis! Iste laudantium officia enim amet! Quis odit odio, reprehenderit nostrum incidunt cupiditate minima, natus et est esse sapiente, tempore repudiandae?</p>
-            <a href="https://gdsc.community.dev/universitas-muslim-indonesia/" target="_blank" class="btn">Learn more</a>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/gdsc-logo.png" alt="">
+            </div>
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Gomawo Shop adalah company profile yang menyediakan beberapa aksesoris kpop, diantaranya terdapat lightstick, album, dan merchandise lainnya. Gomawo Shop didirikan oleh Friska dan Sari sebagai hasil kolaborasi antara Universitas Muslim Indonesia dan Universitas Mulawarman.</p>
+                <a href="https://gdsc.community.dev/universitas-muslim-indonesia/" target="_blank" class="btn">Learn more</a>
+            </div>
         </div>
     </section>
 
     <!-- contact -->
+    <!-- contact section -->
     <section class="contact" id="contact">
-        <div class="social">
-            <a href="#"><i class='bx bxl-facebook' ></i></a>
-            <a href="#"><i class='bx bxl-twitter' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <div class="main-contact">
+            <div class="contact-content">
+                <h4>Partner</h4>
+                <li><a href="#home">SM Ent.</a></li>
+                <li><a href="#about">JYP Ent.</a></li>
+                <li><a href="#menu">YG Ent.</a></li>
+                <li><a href="#contact">Starship Ent.</a></li>
+            </div>
+            <div class="contact-content">
+                <h4>Contact</h4>
+                <li><a href="#home">Contact Us</a></li>
+                <li><a href="#about">News</a></li>
+                <li><a href="#menu">Notice</a></li>
+                <li><a href="#contact">FAQ</a></li>
+            </div>
+            <div class="contact-content">
+                <h4>Social Media</h4>
+                <li><a href="#home">Facebook</a></li>
+                <li><a href="#about">Twitter</a></li>
+                <li><a href="#menu">Instagram</a></li>
+            </div>
         </div>
-        <div class="links">
-            <a href="#">Privacy Notice</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Cookie Preferences</a>
-            <a href="#">Our Company</a>
-        </div>
-        <p>Copyright &#169; 2023 All rights reserved by Friska and Sari</p>
     </section>
+
+    <!-- footer -->
+    <div class="footer">
+        <p>Copyright &#169; 2023 All rights reserved by Friska and Sari</p>
+    </div>
 
     <!-- scroll to top button -->
     <a href="#" class="scroll-top">
