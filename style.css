@@ -166,8 +166,7 @@ header.sticky {
     overflow: hidden;
     border-radius: 10px;
     width: auto;
-    border-style: solid;
-    border-color: var(--second-color);
+    box-shadow: 5px 10px 15px rgb(0 0 0 / 40%);
 }
 
 .home-img .img-container {
@@ -443,7 +442,7 @@ header.sticky {
 
 /* responsive */
 
-@media (max-width: 1280px) {
+@media (max-width: 1128px) {
     header {
         padding: 18px 7%;
     }
@@ -459,6 +458,9 @@ header.sticky {
     header.sticky {
         transition: .2s;
     }
+    .about-img {
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -467,6 +469,15 @@ header.sticky {
     }
     section {
         padding: 50px 4%;
+    }
+    .about-img {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 920) {
+    .about-img {
+        margin-bottom: 4rem;
     }
 }
 
@@ -539,6 +550,9 @@ header.sticky {
     }
     .about {
         flex-direction: column-reverse;
+    }
+    .about-img {
+        margin-bottom: 20%;
     }
 }
 
