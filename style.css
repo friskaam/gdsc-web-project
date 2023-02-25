@@ -284,6 +284,9 @@ header.sticky {
 
 .row {
     transition: all .38s ease;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgb(0 0 0 / 15%);
+    padding: 10px 8px;
 }
 
 .menu-title {
