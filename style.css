@@ -333,6 +333,16 @@ header.sticky {
     transform: scale(1.04);
 }
 
+.add-cart {
+    float: right;
+    margin-right: 10px;
+}
+
+.add-cart i {
+    font-size: 30px;
+    color: var(--second-color);
+}
+
 .about {
     display: flex;
     flex-wrap: wrap;
