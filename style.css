@@ -37,10 +37,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
-    box-shadow: 0 40px 41px rgb(14 55 54 / 14%);
+    background: var(--bg-color);
     padding: 15px 10%;
     transition: 0.2s;
+}
+
+header.sticky {
+    background: var(--bg-color);
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 14%);
 }
 
 .logo {
@@ -162,6 +166,8 @@ header {
     overflow: hidden;
     border-radius: 10px;
     width: auto;
+    border-style: solid;
+    border-color: var(--second-color);
 }
 
 .home-img .img-container {
@@ -247,7 +253,7 @@ header {
     z-index: -1;
     left: 50%;
     margin-left: -150px;
-    top: -170%;
+    top: -150%;
     opacity: 0.3;
 }
 
@@ -256,7 +262,7 @@ header {
     width: 450px;
     z-index: -1;
     left: 50%;
-    margin-left: -220px;
+    margin-left: -225px;
     top: -400%;
     opacity: 0.2;
 }
@@ -437,6 +443,9 @@ header {
     .home-text h2 {
         font-size: 1.5rem;
     }
+    header.sticky {
+        transition: .2s;
+    }
 }
 
 @media (max-width: 991px) {
@@ -508,7 +517,7 @@ header {
     .bg-img#ive {
         width: 290px;
         margin-left: -150px;
-        top: -190%;
+        top: -180%;
     }
     .bg-img#treasure {
         width: 350px;
